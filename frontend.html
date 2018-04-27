@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>To Do List</h1>
+<input type="text" id="to_do" name="textbook" value="" size="50" />
+<button onclick="create_new_item()">Add</button> 
+
+<script>
+function create_new_item() {
+    var x = document.createElement("INPUT");
+    var content = document.getElementById("to_do").value;
+    var b= document.createElement("BUTTON");
+    var pattern = document.createTextNode("x");  
+    b.appendChild(pattern);
+    b.setAttribute("id", "r");
+
+    x.setAttribute("type", "text");
+    x.setAttribute("value", content);
+    x.setAttribute("id", "u");
+    document.body.appendChild(x);
+    document.body.appendChild(b);
+     
+
+
+    b.addEventListener ("click", 
+    function() 
+    {
+    document.getElementById("u").remove();
+    document.getElementById("r").remove();
+    });
+
+
+
+
+}
+</script>
+
+</body>
+</html>
+
