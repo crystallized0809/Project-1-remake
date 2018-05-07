@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <title>Read_page</title>
         <style>
-    body{font-family:monospace; background-color:beige; text-align: center}
+    body{font-family:monospace; background-color:#33F9FF; text-align: center}
   </style>
 </head>
 <body>
-<h1 style="color:cadetblue"> To Do List</h1>
+<h1 style="color:black"> To Do List</h1>
 <p1>
     {% for item in to_do_list %}
 <ul> {{item}} </ul>
@@ -18,23 +18,23 @@
 <br>
 <p2>
 <form method="POST" action="/create">
-    <input type="text" name="task_name" style="color:cadetblue; padding: 10px 24px; font-family:monospace">
-<input type="submit" value="Add Items" style="color:cadetblue; padding: 10px 24px; font-family:monospace">
+    <input type="text" name="task_name" style="color:black; padding: 10px 24px; font-family:monospace">
+<input type="submit" value="Add Items" style="color:black; padding: 10px 24px; font-family:monospace">
 </form>
 </p2>
 <br>
 <p3>
     <form method="POST" action="/delete">
-        <input type="text" name="delete_name" style="color:cadetblue; padding: 10px 24px; font-family:monospace">
-<input type="submit" value="Remove Task" style="color:cadetblue; padding: 10px 24px; font-family:monospace">
+        <input type="text" name="delete_name" style="color:black; padding: 10px 24px; font-family:monospace">
+<input type="submit" value="Remove Task" style="color:black; padding: 10px 24px; font-family:monospace">
     </form>
 </p3>
 <br>
 <p4>
     <form method="POST" action="/replace">
-        Replace <input type="text" name="replace_1" style="color:cadetblue; padding: 10px 24px; font-family:monospace"> with
-        <input type="text" name="replace_2" style="color:cadetblue; padding: 10px 24px; font-family:monospace">
-        <input type="submit" value="Replace Task" style="color:cadetblue; padding: 10px 24px; font-family:monospace">
+        Replace <input type="text" name="replace_1" style="color:black; padding: 10px 24px; font-family:monospace"> with
+        <input type="text" name="replace_2" style="color:black; padding: 10px 24px; font-family:monospace">
+        <input type="submit" value="Replace Task" style="color:black; padding: 10px 24px; font-family:monospace">
     </form>
 </p4>
 
