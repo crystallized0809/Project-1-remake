@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Read_page</title>
+    <title>To Do List</title>
         <style>
     body{font-family:monospace; background-color:#9AD3F3; text-align: center}
   </style>
@@ -12,7 +11,7 @@
 <h1 style="color:black"> To Do List</h1>
 <p1>
     {% for item in lst %}
-<ul> {{item}} </ul>
+<ul> {{item}}  </ul>
     {% endfor %}
 </p1>
 <br>
@@ -38,10 +37,12 @@
     </form>
 </p4>
 <p5>
-
-    <input type = "text" name = "search_name" style="color:black; padding: 10px 24px; font-family:monospace">
-    <input type = "submit" value = "Search Bar" style = "color:black; padding: 10px 24px; font-family:monospace">
+    <form method = "POST" action = "/search">
+        <input type = "text" name = "search_name" style="color:black; padding: 10px 24px; font-family:monospace">
+        <input type = "submit" value = "Search Bar" style = "color:black; padding: 10px 24px; font-family:monospace">
+    </form>
 </p5>
 
 </body>
 </html>
+
