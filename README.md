@@ -27,3 +27,5 @@ Instruction of how to run the application:
 4. open the app using the URL: http://ec2-18-216-213-83.us-east-2.compute.amazonaws.com:5000/
 **install packages as needed such as virtualenv, python, pip, flask, etc. **
 
+**Public URL - 502 Bad Gateway: uwsgi fail to run, but Testing uWSGI Serving works with the command line:uwsgi --socket ec2-18-216-213-83.us-east-2.compute.amazonaws.com:5000 --protocol=http -w wsgi:APP   **
+
