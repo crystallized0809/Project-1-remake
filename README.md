@@ -21,4 +21,9 @@ templates/
 
       
 Instruction of how to run the application:
-The app can be accessed on the public URL: http://ec2-18-216-213-83.us-east-2.compute.amazonaws.com:5000/
+1. access the AWS instance using the pem file. 
+2. set up virulenv by using the command line: source project1env/bin/activate
+3. run the app.py file under fold project1 
+4. open the app using the URL: http://ec2-18-216-213-83.us-east-2.compute.amazonaws.com:5000/
+**install packages as needed such as virtualenv, python, pip, flask, etc. **
+
