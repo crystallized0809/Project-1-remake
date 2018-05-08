@@ -3,7 +3,7 @@ Project 1 Redo
 Crystal Li - yl4923
 
 Project description: This is a to-do list app. The front-end is created using html, css, and javascript, and the back-end is created using flask. The app is connected to the mysql database using pymysql. The app is then hosted on AWS using NGinx and gunicorn.
-public URL = http://ec2-18-216-213-83.us-east-2.compute.amazonaws.com:5000/
+public URL = http://ec2-18-216-213-83.us-east-2.compute.amazonaws.com:5000/ (was able to successfully run for an hour, but then refused to connect)
 
 Project Mapping:
 
