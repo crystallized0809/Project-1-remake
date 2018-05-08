@@ -1,42 +1,24 @@
-# project1 information
+Project 1 Redo 
 
-group name in amazon group setting : cs1122
-public url :http://18.219.118.210
-##Members:
+Crystal Li - yl4923
 
-Santiago Rendon: sr4670
+Project description: This is a to-do list app. The front-end is created using html, css, and javascript, and the back-end is created using flask. The app is connected to the mysql database using pymysql. The app is then hosted on AWS using NGinx and gunicorn.
+public URL = http://ec2-18-216-213-83.us-east-2.compute.amazonaws.com:5000/
 
-Andrey Khegay: ak6585
+Project Mapping:
 
-Dorothy Ng: dn1131
+app.py - back-end of the app, contains html routes, starts and connects to mysql database. 
 
-Nahom Molla: nym228
 
-Yujia Zhang: yz4184
+README.md - this file
 
-Project discription: This is a project using html, css java script as front end, python flask, mysql(pymysql) as backend. The content is a todo list that can get content, modify content and delete content. With the help of ec2 instance setup, connect with nginx and gunicorn, it can be accessed by anyserver using the url http://18.219.118.210
-
-##Project Mapping:
-
-app.py - starts server and contains app routes,connecting with database
-
-frontend.html - contains HTML to-do list(front-end), as well as some backend script
-
-README.md - Project Information
+project1remake.pem - the pem file that is the key to access the AWS server.
 
 
 templates/
--index.html - Renders front page for app, includes text and buttons, some css formatting, and script
+-index.html - the front-end of the app
         
-static/
--js/
---backend.py - Finishes Sprint 2, functions and logic behind frontend
-        
-idea/
--misc.xml - Helps with crossing out to-do list items
--modules.xml - Module manager for crossing out to-do list
--vcs.xml - Contaning mapping for Directory
+
       
 Instruction of how to run the application:
-1.if on local server, run the app.py file (the folder tempelate with html file should in same directory as this python file) in debug mode. Go to localhost, which is http://127.0.0.1:5000, to see the application
-2. if request remotely, go to http://18.219.118.210
+The app can be accessed on the public URL: http://ec2-18-216-213-83.us-east-2.compute.amazonaws.com:5000/
